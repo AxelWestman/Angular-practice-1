@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+td{
+    background-color: white;
+    text-align: center;
+}
+
+button{
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.inputss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputss > p{
+    margin-top: -5px;
+}
+
+input{
+    width: 150px;
+}
+
+.botones-separacion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
